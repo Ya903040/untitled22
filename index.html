@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Decision tree</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="tree">
+  <h2>Which do you like better?</h2>
+  <ul>
+    <li> 
+      <h3>Dogs</h3>
+      <p class="text hidden">What kind of dogs?</p>
+      <ul> 
+        <li> 
+          <h4>Large dogs</h4>
+          <p class="text hidden">What breed?</p>
+          <ul>
+            <li>Grand Danois
+              <p class="text hidden">Congratulations, you like GD!</p>
+            </li>
+            <li>Weimaraner
+              <p class="text hidden">Congratulations, you like W!</p>
+            </li>
+          </ul><span class="back hidden">Back</span>
+        </li>
+        <li> 
+          <h4>Small dogs</h4>
+        </li><span class="back hidden">Back</span>
+      </ul>
+    </li>
+    <li> 
+      <h3>Cats</h3>
+      <p class="text hidden">What kind of cats?</p>
+      <ul> 
+        <li>Domestic cats</li>
+        <li>Wild Cats</li>
+      </ul>
+    </li><span class="back hidden">Back to Dogs & Cats</span>
+  </ul>
+</div>
+<!-- partial -->
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
